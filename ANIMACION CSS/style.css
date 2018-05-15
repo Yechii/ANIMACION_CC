@@ -1,0 +1,889 @@
+#itsur{
+
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	color: #0f4f85;
+
+	
+    position: absolute;
+   
+  
+
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+
+#esp{
+	
+font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+
+}
+
+#inscribete{
+text-align: left; 
+font-family: Arial Black; 
+font-weight: bold; 
+font-size: 30px; 
+ 
+  background-color: #042f53;
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+
+    animation-fill-mode: forwards;
+    animation-name:parpadeoInscribete;
+    animation-duration:3s;
+    animation-delay: 1.3s;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+
+}
+#sis{
+
+text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 30px; 
+color: #99b5cd;
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+
+}
+
+
+#esp{
+text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 22px; 
+
+    animation-fill-mode: forwards;
+    animation-name:esp;
+    animation-duration:2s;
+    animation-delay: 2.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    
+
+}
+
+
+ @keyframes parpadeoInscribete{
+
+ 	from{
+       color: #b2cbe0;
+       transform: scale(0.6,0.6);
+       
+ 	} to{
+         color: #07487f;
+         transform: scale(0.9);
+
+ 	}
+
+ }
+
+
+#forma{
+text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 23px; 
+color: #99b5cd;
+
+
+
+
+}
+
+
+
+#MainLeft{
+z-index: 2;
+
+}
+
+#MainRight{
+	margin-left: 900px;
+	margin-top: -630px;
+	z-index: 2;
+
+	
+}
+
+#ingenieria{
+
+  color:#f16028;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+  text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+  
+
+
+
+    animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+  
+}
+
+#moviles{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+    font-weight: 600;
+	color:#72b049;
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-size: 23px;
+    margin-top: -5px;
+	margin-left: -43px;
+
+
+	animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#red{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#1dbcd5;
+	font-weight: 600;
+	 font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	 font-size: 25px;
+	 margin-top: -90px;
+	 margin-left: 110px;
+
+	 animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#iot{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	 font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	color:#9c25b0;
+	font-weight: 600;
+	font-size: 23px;
+	transform:translate(-85px, -200px) rotate(-90deg) ;
+
+   
+   animation-name: arriba;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+	
+
+	
+
+	
+}
+
+#software{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	 font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-weight: 600;
+	color:#ff9800;
+	font-size: 23px;
+	margin-left: -57px;
+	margin-top: -5px;
+
+	animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+	
+	
+}
+
+#red{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	 font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-weight: 600;
+	color:#ff9800;
+	margin-top: -80px;
+
+	
+}
+
+#codigo{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	 font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-weight: 600;
+	color:#489c9c;
+	font-size: 21px;
+	 margin-top: -5px;
+	 margin-left: 105px;
+
+	animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+	
+}
+
+#comunicacion{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+ color:#1794f4;
+font-weight: 600;
+ font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+ font-size: 31px;
+ margin-left: -73px;
+ margin-top: 0px;
+
+animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+
+}
+
+#tecnologia{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+color:#e91d62;
+font-weight: 600;
+font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+font-size: 40px;
+margin-top: -10px;
+margin-left: -75px;
+
+   animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#web{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+ color:#3f51b5;
+ font-weight: 600;
+ font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+ font-size: 41px;
+ margin-top: -10px;
+margin-left: -75px;
+
+animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+
+}
+
+#sistemas{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+    font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	color:#009688;
+	font-size: 29px;
+	margin-top: -45px;
+    margin-left: 55px;
+
+    animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+
+#proyecto{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#6335b6;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 16px;
+    margin-top: -2px;
+    margin-left: -70px;
+
+
+    animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+
+}
+
+
+#diseno{
+
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#e6670e;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 21px;
+    margin-top: -2px;
+    margin-left: -64px;
+
+    animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+}
+
+
+#nube{
+   text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#00a9f5;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 23px;
+    margin-top: -2px;
+    margin-left: -55px;
+
+    animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+
+#idea{
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#e60e84;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 23px;
+    margin-top: -2px;
+    margin-left: -42px;
+
+    animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#dato{
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#ff5425;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 16px;
+    margin-top: -2px;
+    margin-left: -30px;
+
+    animation-name: izquierda;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+}
+
+#mejora{
+
+   text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+   color:#a10466;
+   font-weight: 600;
+   font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+   font-size: 15px;
+   transform: rotate(-90deg);
+   margin-top: -280px;
+   margin-left: -335px;
+
+   animation-name: mejora;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#innovacion{
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#ffc107;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 33px;
+    transform: rotate(-90deg);
+    margin-top: 20px;
+   margin-left: -280px;
+
+}
+
+
+#proteccion{
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#0cc8ca;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 28px;
+    transform: rotate(-90deg);
+    margin-top: -7px;
+    margin-left: -222px;
+
+}
+
+
+#recuperacion{
+
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#65b45d;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 19px;
+    transform: rotate(-90deg);
+    margin-top: -4px;
+    margin-left: -175px;
+
+
+}
+
+#calidad{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#9617ab;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 15px;
+    transform: rotate(-90deg);
+	    margin-top: 70px;
+	    margin-left: -150px;
+
+    animation-name: calidad;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+
+#informacion{
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#a60a68;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 17px;
+
+    margin-top: -115px;
+    margin-left: 83px;
+  
+
+  animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+
+}
+
+#seguridad{
+
+    text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#01009e;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 83px;
+
+    animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+
+#gestion{
+
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#795547;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 107px;
+    animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+#app{
+text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+color:#e60e0c;
+ font-weight: 600;
+ font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+ font-size: 36px;
+
+ margin-top: -7px;
+ margin-left: 106px;
+
+ animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+
+
+#optimo{
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+	color:#51a4c8;
+	font-weight: 600;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 15px;
+
+     margin-top: -7px;
+    margin-left: 103px;
+
+    animation-name: derecha;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+}
+}
+
+#resplandor{
+
+    display: inline-flex;
+    position: fixed;
+}
+.res{
+
+    background-color: #ffc107;
+    width: 10px;
+    height: 55px;
+    border-radius: 100px;  
+    /*animation-name: luz1;
+	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);  */
+}
+#res1{
+    /*transform: translateX(190px);*/
+    
+    transform: rotate(-90deg) translate(-400px,-120px);
+    animation-name: luz1;
+	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    visibility: hidden;
+
+
+
+}
+#res2{
+    transform: rotate(-56deg) translate(-240px, 45px);
+  
+  	animation-name: luz1;
+	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    visibility: hidden;
+
+
+
+}
+#res3{
+
+	/*Sistemas*/
+    /*width: 55px;
+    height: 10px;*/
+    transform:translate(260px,295px) rotate(-90deg);
+
+    animation-name: luz1;
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    visibility: hidden;
+
+}
+#res4{
+
+	/* codigo
+	*/
+    transform: rotate(50deg) translate(206px, -100px);
+
+    animation-name: luz1;
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    visibility: hidden;
+
+}
+#res5{
+    
+    transform: translate(50px, -20px);
+
+    animation-name: luz1;
+	animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    visibility: hidden;
+
+}
+
+
+#focoAbajo{
+
+	display: inline-flex;
+    visibility: hidden;
+
+
+
+    animation-name: focoabajo;
+	animation-fill-mode: forwards;
+    animation-delay: 1.6s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    transform: scale(0.1);
+    
+
+
+}
+
+
+.ab{
+ 
+      background-color: #607d8b;
+    width: 10px;
+    height: 85px;
+    border-radius: 100px;   
+
+}
+
+#una{
+	
+	transform:rotate(-92deg) translate(-232px,46px);
+    border-radius: 100px;   
+
+}
+
+#dos{
+	transform:rotate(-92deg) translate(-245px,36px);
+    border-radius: 100px;   
+}
+#tres{
+
+	transform:rotate(-92deg) translate(-258px,27px);
+    border-radius: 100px;   
+}
+
+#ultima{
+	border-radius: 0 0 100% 100%;   
+	width: 45px;
+    height:13px;
+    background-color: #607d8b;
+    transform: translate(10px, 308px) rotate(2deg);
+
+
+
+
+}
+
+
+#abajo{
+	
+    animation-name: abajo;
+	animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    margin-top: -83px;
+
+
+}
+
+
+@keyframes derecha{
+
+from{ transform: translateX(300px);
+
+	} to{
+
+
+	}
+
+}
+
+
+@keyframes izquierda{
+	from{ transform: translateX(-300px);
+
+	} to{
+
+
+	}
+
+
+}
+
+
+@keyframes arriba{
+
+	from{ 
+       transform:translate(-85px, -400px) rotate(-90deg) ;
+	} to{
+		
+		
+
+
+	}
+
+
+}
+
+@keyframes abajo{
+
+	from{ 
+
+     margin-top: 0px;
+	margin-left: -5px;
+	} to{
+     margin-top: -83px;
+	margin-left: -5px;
+	
+	}
+
+
+}
+
+
+@keyframes mejora{
+
+	from{
+
+
+	} to{
+       
+   transform: rotate(-90deg);
+   
+transform:t translate(200px, 100px);
+
+	}
+
+
+}
+
+
+@keyframes calidad{
+
+	from{ 
+
+	} to{
+  
+
+
+	}
+
+
+}
+@keyframes focoabajo{
+
+	from{ 
+		transform: scale(0.1);
+
+	} to{
+
+		transform: scale(1);
+		visibility: visible;
+
+
+
+	}
+
+
+}
+
+
+@keyframes luz1{
+
+	0%{
+
+		visibility: hidden;
+
+	}100%{
+		visibility: visible;
+	}
+}
+
+
+
+@keyframes esp{
+
+	from{
+		transform: translateX(-100px);
+
+		}to{
+       transform: translateX(0px);
+       border-color: #06cacc;
+       font-variant: small-caps;
+
+		}
+}
+
+#yess{
+
+	font-family: Georgia, Cambria, Times, "Times New Roman";
+	size: 22;
+	color:#450447;
+	text-shadow: 0px 1px 1px rgba(172, 170, 170, 0.8);
+    font-weight: 600px;
+
+    animation-name: yess;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration:2.5s;
+    animation-timing-function: cubic-bezier(0.07, 0.88, 0.39, 1.38);
+    
+
+}
+
+
+@keyframes yess{
+
+	from{
+		transform: translateX(-100px);
+
+		}to{
+       transform: translateX(0px);
+		}
+}
+
+
+
+
+
+
+
+
+
